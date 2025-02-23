@@ -1,18 +1,6 @@
-#include <shared/HelpersGLFW.h>
+#include <stdio.h>
 
-int main()
-{
-  uint32_t w = 1280;
-  uint32_t h = 800;
-
-  GLFWwindow* window = initWindow("GLFW example", w, h);
-
-  while (!glfwWindowShouldClose(window)) {
-    glfwPollEvents();
-  }
-
-  glfwDestroyWindow(window);
-  glfwTerminate();
-
-  return 0;
+int main() {
+    printf("TODO!\n");
+    return 0;
 }
